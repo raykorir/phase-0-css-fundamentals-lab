@@ -3,3 +3,44 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  text-align: center; /* Align header text to center */
+}
+
+img {
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
+
+nav {
+  text-align: center; /* Center navigation links */
+}
+
+nav a {
+  padding: 10px; /* Add padding to navigation links */
+  background-color: grey; /* Change background color of navigation links */
+}
+
+figcaption {
+  text-align: center; /* Center the image caption */
+  font-size: 14px; /* Shrink font size of image caption */
+}
+
+#featured-property p {
+  width: 800px; /* Set hard width for paragraphs within #featured-property */
+  margin: 20px auto; /* Center the paragraphs and add vertical space */
+  text-align: center; /* Center text */
+}
+
+#details {
+  overflow: hidden; /* Clear floats */
+}
+
+#details div {
+  float: left; /* Float each div to the left */
+  width: 25%; /* Occupy 25% of the width */
+  background-color: lightgrey; /* Set background color */
+  text-align: center; /* Center text */
+  padding: 20px; /* Add padding */
+}
+
